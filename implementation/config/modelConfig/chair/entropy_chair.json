@@ -1,0 +1,1 @@
+{"learning_rate": 0.001, "cat_desc": "chair", "inference_params": {"alpha": 0.25}, "entropy_loss": {"weight": 100.0, "exp_annealing_rate": 0.0001}}

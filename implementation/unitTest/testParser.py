@@ -1,0 +1,13 @@
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument('cat', type=str)
+parser.add_argument('--shape', type=int, nargs=2, default=[192, 256])
+parser.add_argument('--blender_path', type=str, default='blender')
+parser.add_argument('-n', '--n_images', type=int, default=8)
+parser.add_argument('-d', '--debug', action='store_true')
+parser.add_argument('-r', '--reverse', action='store_true')
+parser.add_argument('-o', '--overwrite', action='store_true')
+parser.add_argument('-i', '--example_ids', nargs='*')
+parser.add_argument('-f', '--fixed_meshes', action='store_true')
+args = parser.parse_args()
+print(args)

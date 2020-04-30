@@ -1,0 +1,1 @@
+{"prob_eps": 0.001, "learning_rate": 0.001, "gamma": "log", "cat_desc": "chair", "inference_params": {"alpha": 0.25}}
